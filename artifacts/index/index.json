@@ -1,0 +1,10 @@
+{
+  "embedding": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "chunks": 482,
+  "dimensions": 384,
+  "fingerprint": "fea48508ec79a98107da900bd10e7fd54d9354d5e3ecb0c7dfe20ba76a261438",
+  "pages_sha256": "8bc9bc1c557543c328573f3690e89a61cc747282d6d877c970eaa090adaefe2a",
+  "chunking": "180 whitespace tokens, overlap35; Hindi90, overlap20; never cross PDF pages",
+  "max_tokens": 512
+}

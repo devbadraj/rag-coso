@@ -1,0 +1,67 @@
+{
+  "reserved_at_utc": "2026-10-04T22:42:11.990459+00:00",
+  "base_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+  "loss": "BCEWithLogitsLoss, reviewed query/passage pairs",
+  "learning_rate": 2e-05,
+  "epochs": 3,
+  "max_length": 512,
+  "trainable": "last two transformer blocks and classifier; other weights frozen",
+  "selection": "best development MRR then hit@5 then earlier epoch; no test scores",
+  "neural_holdout_sha256": "36fce92fe8e041ab27010adc15941a91701c8b6cfde40b2d598c90d1fd2f7040",
+  "prior_sets_status": "Original and prior fresh checks are now regression sets, not blind tests.",
+  "new_holdout_status": "12 source-authored questions across six page groups reserved before neural training. No Hindi group available on a new unused tender page.",
+  "removed_training_labels": [
+    {
+      "question_id": "boundary-1",
+      "chunk_id": "standard-p18-c2",
+      "label": 0,
+      "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."
+    },
+    {
+      "question_id": "boundary-2",
+      "chunk_id": "standard-p18-c2",
+      "label": 0,
+      "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."
+    },
+    {
+      "question_id": "beam-width-1",
+      "chunk_id": "standard-p18-c5",
+      "label": 0,
+      "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."
+    },
+    {
+      "question_id": "beam-width-2",
+      "chunk_id": "standard-p18-c2",
+      "label": 0,
+      "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."
+    },
+    {
+      "question_id": "steel-ratio-2",
+      "chunk_id": "standard-p19-c1",
+      "label": 0,
+      "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."
+    },
+    {
+      "question_id": "dismantled-material-1",
+      "chunk_id": "contract-p56-c2",
+      "label": 0,
+      "reason": "Competing text concerns purchased materials, escalation or concrete design, not ownership of recovered dismantling materials."
+    },
+    {
+      "question_id": "qualified-tradesmen-2",
+      "chunk_id": "standard-p18-c2",
+      "label": 0,
+      "reason": "Competing text concerns supervisor competence, penalty authority blanks, welfare recovery, labour discipline or steel ratios, not the twenty-percent trade certificate requirement."
+    }
+  ],
+  "sources": [
+    "https://www.sbert.net/docs/cross_encoder/training_overview.html",
+    "https://www.sbert.net/docs/package_reference/cross_encoder/losses.html",
+    "https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+  ],
+  "frozen_before_final_evaluation_utc": "2026-10-04T22:45:10.423621+00:00",
+  "frozen_model_sha256": "2858e7557665b2731d52f33d7296401ea4e420754339be19b220fcc0e15f13e6",
+  "adapter_sha256": "ec3ae43a3bc2f803a29fc7cead3ee3ab20c33f1ff0beeead4d491adf47a103c4",
+  "training_source_pages_excluded": true
+}

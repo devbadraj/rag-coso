@@ -1,0 +1,93 @@
+# Model revisions are pinned so the included index and weights stay reproducible.
+[models]
+answer = "deepseek/deepseek-v4.1-flash"
+embedding = "intfloat/multilingual-e5-small"
+embedding_revision = "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+reranker = "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+reranker_revision = "1427fd652930e4ba29e8149678df786c240d8825"
+
+[search]
+candidate_pool = 15
+results = 6
+context_pages = 6
+max_question_chars = 1500
+max_tokens = 512
+embedding_batch_size = 32
+bm25_k1 = 1.5
+bm25_b = 0.75
+fusion_constant = 60
+chunk_words = 180
+chunk_overlap = 35
+hindi_chunk_words = 90
+hindi_chunk_overlap = 20
+
+[training]
+learning_rate = 0.00002
+weight_decay = 0.01
+batch_size = 4
+inference_batch_size = 8
+epochs = 3
+warmup_fraction = 0.1
+gradient_clip = 1.0
+last_layers = 2
+seed = 42
+cpu_threads = 4
+
+[api]
+endpoint = "https://openrouter.ai/api/v1/chat/completions"
+budget_usd = 0.50
+input_price_cap = 0.30
+output_price_cap = 1.20
+answer_tokens = 1200
+ocr_tokens = 5000
+timeout_seconds = 120
+evaluation_workers = 3
+image_max_pixels = 1600
+image_token_reserve = 50000
+request_token_reserve = 4096
+ocr_min_characters = 40
+
+# Reviewed extraction quirks are explicit data, not branches on document IDs.
+[[documents]]
+id = "standard"
+title = "IS 13920:1993 — Ductile detailing"
+display_name = "Concrete rules (1993)"
+type = "engineering standard"
+file = "standard.pdf"
+drive_id = "1lH5vElYdlmtro71Uu1B7Br-KnnikNakr"
+language = "English"
+vision_pages = [8, 9]
+
+[[documents]]
+id = "contract"
+title = "CPWD General Conditions of Contract 2020"
+display_name = "Construction contract (2020)"
+type = "contract"
+file = "contract.pdf"
+drive_id = "1oolJsh0lHJPUWZ-e7Yxodv5QIAeIaY3z"
+language = "English"
+cleanup_pattern = '1234567890[0-9]{20,}'
+section_pattern = '(?mi)^Clause[ \t]+(\d+[ \t]*[A-Z]{0,2})[ \t]*$'
+section_prefix = "CPWD Clause "
+
+[[documents]]
+id = "tender"
+title = "Rajasthan PWD e-tender notice 68/2024–25"
+display_name = "Hindi tender (2025)"
+type = "tender notice"
+file = "tender.pdf"
+drive_id = "1C_2hp5o9XIZXVryZYFUljHuEmKPwqdDk"
+language = "Hindi"
+vision_all_pages = true
+
+[[examples]]
+label = "How much can a delay cost?"
+question = "What is the cap on total compensation for delay under CPWD clause 2?"
+
+[[examples]]
+label = "क्या मानसून का समय गिना जाता है?"
+question = "क्या कार्य पूरा करने की अवधि में मानसून शामिल है?"
+
+[[examples]]
+label = "When do bids close?"
+question = "What is the online bid submission deadline in the Rajasthan tender?"

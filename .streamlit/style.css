@@ -1,0 +1,20 @@
+.block-container {
+    max-width: 1100px;
+    padding-top: 2.5rem;
+}
+
+h1 {
+    letter-spacing: -.04em;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.5rem;
+}
+
+[data-testid="stSidebar"] {
+    border-right: 1px solid #dcded5;
+}
+
+.stButton button {
+    border-radius: 10px;
+}

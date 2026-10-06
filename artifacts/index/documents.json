@@ -1,0 +1,35 @@
+[
+  {
+    "id": "standard",
+    "title": "IS 13920:1993 — Ductile detailing",
+    "type": "engineering standard",
+    "file": "standard.pdf",
+    "drive_id": "1lH5vElYdlmtro71Uu1B7Br-KnnikNakr",
+    "language": "English",
+    "sha256": "bf48a89b18f8bb8b44ea53777ade2daf0bbfba3d8a63c93cc3ba4ee85c74b0c3",
+    "pages": 24,
+    "bytes": 2239741
+  },
+  {
+    "id": "contract",
+    "title": "CPWD General Conditions of Contract 2020",
+    "type": "contract",
+    "file": "contract.pdf",
+    "drive_id": "1oolJsh0lHJPUWZ-e7Yxodv5QIAeIaY3z",
+    "language": "English",
+    "sha256": "c95a8acef15c94d3306d93a5fbc796f5310221a7452f16006073fe9309c241a3",
+    "pages": 112,
+    "bytes": 8780908
+  },
+  {
+    "id": "tender",
+    "title": "Rajasthan PWD e-tender notice 68/2024–25",
+    "type": "tender notice",
+    "file": "tender.pdf",
+    "drive_id": "1C_2hp5o9XIZXVryZYFUljHuEmKPwqdDk",
+    "language": "Hindi",
+    "sha256": "d0fb238ee9887f7c1c92c9e3f93cddabe00fd50a1a22589e0cc8d2a153055cb1",
+    "pages": 6,
+    "bytes": 2864557
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "uncertainties": [
+    "The handwritten date is interpreted as 27-3-25; the middle digit could be read as 7 or 9.",
+    "The handwritten office number is interpreted as 1792; the final digit could be read as 2 or 3.",
+    "The signature block name is interpreted as (ए. एन. रावत); the initials are handwritten and could be read differently."
+  ],
+  "text": "कार्यालय अधिशाषी अभियन्ता, सार्वजनिक निर्माण विभाग निर्माण खण्ड, जयपुर\nक्रमांक :- 1792\t\t\t\t\t\tदिनांक :- 27-3-25\n\nअल्पकालीन ई-निविदा सूचना संख्या 68/2024-25 प्रकाशन बाबत् ।\n\nBids for Building Construction / Maintenance works are invited from interested bidders upto 15-04-2025 (06.00 PM) Other particulars of the bid may be visited on the procurement portal http://sppp.raj.nic.in and http://eproc.rajasthan.gov.in\n\nUBN No. :- 1. PWD2425WSOB17397\n\n\t\t\t\t\t\t\t\t(ए. एन. रावत)\n\t\t\t\t\t\t\t\tअधिशाषी अभियन्ता\n\t\t\t\t\t\t\t\tसा.नि.वि. निर्माण खण्ड,\n\t\t\t\t\t\t\t\tजयपुर",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "pdf_sha256": "d0fb238ee9887f7c1c92c9e3f93cddabe00fd50a1a22589e0cc8d2a153055cb1",
+  "page": 6,
+  "generation": "gen-1791133249-b9tSEEVrJoVsqthIRtOW",
+  "cost_usd": 0.00013715
+}

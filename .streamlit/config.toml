@@ -1,0 +1,15 @@
+[theme]
+primaryColor = "#196B5D"
+backgroundColor = "#FBFAF6"
+secondaryBackgroundColor = "#F0EEE6"
+textColor = "#202F2B"
+font = "sans-serif"
+
+[server]
+headless = true
+address = "127.0.0.1"
+# Avoid traversing Transformers' lazy model imports while watching source files.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

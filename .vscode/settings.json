@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".venv": true,
+    ".local": true,
+    ".pytest_cache": true,
+    ".ruff_cache": true
+  },
+  "search.exclude": {
+    "artifacts": true,
+    "uv.lock": true
+  }
+}

@@ -1,0 +1,1454 @@
+{
+  "ranking": "baseline",
+  "questions": 24,
+  "citation_validation_passes": 24,
+  "expected_status_matches": 23,
+  "results": [
+    {
+      "id": "column-1",
+      "question": "What minimum column dimension applies when the beam centre-to-centre span exceeds 5 m?",
+      "expected": "At least300mm for frames with beam centre spans exceeding5m or column unsupported lengths exceeding4m.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Where frames have beams with centre-to-centre span exceeding 5 m, the shortest dimension of the column shall not be less than 300 mm.",
+            "evidence_quote": "in frames which have beams with centre to centre span exceeding 5 m or columns of unsupported length exceeding 4 m, the shortest dimension of the column shall not be less than 300 mm.",
+            "citation_id": "standard-p10"
+          },
+          {
+            "text": "The general minimum dimension of the member shall not be less than 200 mm.",
+            "evidence_quote": "The minimum dimension of the member shall not be less than 200 mm.",
+            "citation_id": "standard-p10"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p10",
+            "doc_id": "standard",
+            "page": 10
+          },
+          {
+            "id": "standard-p7",
+            "doc_id": "standard",
+            "page": 7
+          },
+          {
+            "id": "standard-p11",
+            "doc_id": "standard",
+            "page": 11
+          },
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p15",
+            "doc_id": "standard",
+            "page": 15
+          },
+          {
+            "id": "standard-p8",
+            "doc_id": "standard",
+            "page": 8
+          }
+        ],
+        "cost_usd": 0.000203321,
+        "cached": false,
+        "generation": "gen-1791135036-YpOgm2N2sMOinN6EL1qB"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "column-2",
+      "question": "For a column with unsupported length exceeding 4 metres, what minimum shortest dimension is specified?",
+      "expected": "At least300mm for frames with beam centre spans exceeding5m or column unsupported lengths exceeding4m.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "For columns of unsupported length exceeding 4 m, the shortest dimension of the column shall not be less than 300 mm.",
+            "evidence_quote": "in frames which have beams with centre to centre span exceeding 5 m or columns of unsupported length exceeding 4 m, the shortest dimension of the column shall not be less than 300 mm.",
+            "citation_id": "standard-p10"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p10",
+            "doc_id": "standard",
+            "page": 10
+          },
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p16",
+            "doc_id": "standard",
+            "page": 16
+          },
+          {
+            "id": "standard-p15",
+            "doc_id": "standard",
+            "page": 15
+          },
+          {
+            "id": "standard-p11",
+            "doc_id": "standard",
+            "page": 11
+          },
+          {
+            "id": "standard-p7",
+            "doc_id": "standard",
+            "page": 7
+          }
+        ],
+        "cost_usd": 0.000182146,
+        "cached": false,
+        "generation": "gen-1791135036-kxUqds8kAwF8omQ3CQYR"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "column-lap-1",
+      "question": "Where along a column may lap splices be provided?",
+      "expected": "Only central half of member length.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "For columns and frame members subjected to bending and axial load, lap splices shall be provided only in the central half of the member length, proportioned as a tension splice, with hoops over the entire splice length at spacing not exceeding 150 mm centre to centre, and not more than 50 percent of the bars spliced at one section.",
+            "evidence_quote": "7.2.1 Lap splices shall be provided only in the central half of the member length. It should be proportioned as a tension splice. Hoops shall be provided over the entire splice length at spacing not exceeding 150 mm centre to centre. Not more than 50 percent of the bars shall be spliced at one section.",
+            "citation_id": "standard-p10"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p10",
+            "doc_id": "standard",
+            "page": 10
+          },
+          {
+            "id": "standard-p8",
+            "doc_id": "standard",
+            "page": 8
+          },
+          {
+            "id": "standard-p5",
+            "doc_id": "standard",
+            "page": 5
+          },
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p19",
+            "doc_id": "standard",
+            "page": 19
+          },
+          {
+            "id": "standard-p18",
+            "doc_id": "standard",
+            "page": 18
+          }
+        ],
+        "cost_usd": 0.000224046,
+        "cached": false,
+        "generation": "gen-1791135036-L1nioJxF4hjd1a6aDFQM"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "column-lap-2",
+      "question": "Which part of a column length is permitted for lap splices under clause 7.2.1?",
+      "expected": "Only central half of member length.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Lap splices in columns shall be provided only in the central half of the member length.",
+            "evidence_quote": "Lap splices shall be provided only in the central half of the member length.",
+            "citation_id": "standard-p10"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p10",
+            "doc_id": "standard",
+            "page": 10
+          },
+          {
+            "id": "standard-p8",
+            "doc_id": "standard",
+            "page": 8
+          },
+          {
+            "id": "standard-p5",
+            "doc_id": "standard",
+            "page": 5
+          },
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p15",
+            "doc_id": "standard",
+            "page": 15
+          },
+          {
+            "id": "standard-p11",
+            "doc_id": "standard",
+            "page": 11
+          }
+        ],
+        "cost_usd": 0.000181546,
+        "cached": false,
+        "generation": "gen-1791135038-yS6CAdGIi5PmKD1IjR4n"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "footing-1",
+      "question": "How far must special confining reinforcement extend into a footing or mat?",
+      "expected": "At least300mm into footing or mat.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "When a column terminates into a footing or mat, special confining reinforcement shall extend at least 300 mm into the footing or mat.",
+            "evidence_quote": "When a column terminates into a footing or mat, special confining reinforcement shall extend at least 300 mm into the footing or mat",
+            "citation_id": "standard-p13"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p15",
+            "doc_id": "standard",
+            "page": 15
+          },
+          {
+            "id": "standard-p18",
+            "doc_id": "standard",
+            "page": 18
+          },
+          {
+            "id": "standard-p11",
+            "doc_id": "standard",
+            "page": 11
+          },
+          {
+            "id": "standard-p5",
+            "doc_id": "standard",
+            "page": 5
+          },
+          {
+            "id": "standard-p16",
+            "doc_id": "standard",
+            "page": 16
+          }
+        ],
+        "cost_usd": 0.000192771,
+        "cached": false,
+        "generation": "gen-1791135040-Tx0xSaDXRrWvYy2wWGXA"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "footing-2",
+      "question": "When a column ends in a mat, what minimum confining reinforcement extension is required?",
+      "expected": "At least300mm into footing or mat.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "When a column terminates into a footing or mat, special confining reinforcement shall extend at least 300 mm into the footing or mat.",
+            "evidence_quote": "When a column terminates into a footing or mat, special confining reinforcement shall extend at least 300 mm into the footing or mat",
+            "citation_id": "standard-p13"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p13",
+            "doc_id": "standard",
+            "page": 13
+          },
+          {
+            "id": "standard-p15",
+            "doc_id": "standard",
+            "page": 15
+          },
+          {
+            "id": "standard-p16",
+            "doc_id": "standard",
+            "page": 16
+          },
+          {
+            "id": "standard-p11",
+            "doc_id": "standard",
+            "page": 11
+          },
+          {
+            "id": "standard-p9",
+            "doc_id": "standard",
+            "page": 9
+          },
+          {
+            "id": "standard-p10",
+            "doc_id": "standard",
+            "page": 10
+          }
+        ],
+        "cost_usd": 0.000168746,
+        "cached": false,
+        "generation": "gen-1791135041-lFnXNE3HlM91PCqsuywe"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "wall-1",
+      "question": "What minimum shear wall thickness is preferred in the supplied standard?",
+      "expected": "Preferably at least150mm.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "The thickness of any part of the shear wall should preferably not be less than 150 mm.",
+            "evidence_quote": "9.1.2 The thickness of any part of the wall shall \npreferably, \nnot be less than 150 mm.",
+            "citation_id": "standard-p17"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p17",
+            "doc_id": "standard",
+            "page": 17
+          },
+          {
+            "id": "standard-p7",
+            "doc_id": "standard",
+            "page": 7
+          },
+          {
+            "id": "standard-p5",
+            "doc_id": "standard",
+            "page": 5
+          },
+          {
+            "id": "standard-p19",
+            "doc_id": "standard",
+            "page": 19
+          },
+          {
+            "id": "standard-p18",
+            "doc_id": "standard",
+            "page": 18
+          },
+          {
+            "id": "standard-p6",
+            "doc_id": "standard",
+            "page": 6
+          }
+        ],
+        "cost_usd": 0.000228921,
+        "cached": false,
+        "generation": "gen-1791135041-fHiIJi6Nx3MREgOwKz1v"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "wall-2",
+      "question": "Under clause 9.1.2, what is the preferred minimum thickness of any part of a shear wall?",
+      "expected": "Preferably at least150mm.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Under clause 9.1.2, the thickness of any part of the wall shall preferably not be less than 150 mm.",
+            "evidence_quote": "9.1.2 The thickness of any part of the wall shall \npreferably, \nnot be less than 150 mm.",
+            "citation_id": "standard-p17"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "standard-p17",
+            "doc_id": "standard",
+            "page": 17
+          },
+          {
+            "id": "standard-p19",
+            "doc_id": "standard",
+            "page": 19
+          },
+          {
+            "id": "standard-p7",
+            "doc_id": "standard",
+            "page": 7
+          },
+          {
+            "id": "standard-p18",
+            "doc_id": "standard",
+            "page": 18
+          },
+          {
+            "id": "standard-p6",
+            "doc_id": "standard",
+            "page": 6
+          },
+          {
+            "id": "standard-p5",
+            "doc_id": "standard",
+            "page": 5
+          }
+        ],
+        "cost_usd": 0.000227671,
+        "cached": false,
+        "generation": "gen-1791135042-YG8fmU5ttriHpwiXe4ta"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "delay-1",
+      "question": "What is the cap on total compensation for delay under CPWD clause 2?",
+      "expected": "Total capped at10% of accepted tendered value or sectional part with separate completion period.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Under CPWD Clause 2, the total amount of compensation for delay shall not exceed 10% (ten percent) of the accepted Tendered Value of work, or of the accepted Tendered Value of the Sectional part of work as mentioned in Schedule 'F' for which a separate period of completion is originally given.",
+            "evidence_quote": "Provided always that the total amount of compensation for delay to be paid under this condition shall not exceed 10 % (ten percent) of the accepted Tendered Value of work or of the accepted Tendered Value of the Sectional part of work as mentioned in Schedule 'F' for which a separate period of completion is originally given.",
+            "citation_id": "contract-p16"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p16",
+            "doc_id": "contract",
+            "page": 16
+          },
+          {
+            "id": "contract-p17",
+            "doc_id": "contract",
+            "page": 17
+          },
+          {
+            "id": "contract-p39",
+            "doc_id": "contract",
+            "page": 39
+          },
+          {
+            "id": "contract-p30",
+            "doc_id": "contract",
+            "page": 30
+          },
+          {
+            "id": "contract-p47",
+            "doc_id": "contract",
+            "page": 47
+          },
+          {
+            "id": "contract-p22",
+            "doc_id": "contract",
+            "page": 22
+          }
+        ],
+        "cost_usd": 0.000185496,
+        "cached": false,
+        "generation": "gen-1791135043-H8GUbu5GMjFZtwBmf1iD"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "delay-2",
+      "question": "Can delay compensation exceed ten percent of the accepted tendered value under clause 2?",
+      "expected": "Total capped at10% of accepted tendered value or sectional part with separate completion period.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "The total amount of compensation for delay payable under clause 2 shall not exceed 10% (ten percent) of the accepted Tendered Value of work, or of the accepted Tendered Value of the Sectional part of work as mentioned in Schedule 'F' for which a separate period of completion is originally given.",
+            "evidence_quote": "Provided always that the total amount of compensation for delay to be paid under this condition shall not exceed 10 % (ten percent) of the accepted Tendered Value of work or of the accepted Tendered Value of the Sectional part of work as mentioned in Schedule 'F' for which a separate period of completion is originally given.",
+            "citation_id": "contract-p16"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p16",
+            "doc_id": "contract",
+            "page": 16
+          },
+          {
+            "id": "contract-p19",
+            "doc_id": "contract",
+            "page": 19
+          },
+          {
+            "id": "contract-p25",
+            "doc_id": "contract",
+            "page": 25
+          },
+          {
+            "id": "contract-p28",
+            "doc_id": "contract",
+            "page": 28
+          },
+          {
+            "id": "contract-p17",
+            "doc_id": "contract",
+            "page": 17
+          },
+          {
+            "id": "contract-p30",
+            "doc_id": "contract",
+            "page": 30
+          }
+        ],
+        "cost_usd": 0.000186846,
+        "cached": false,
+        "generation": "gen-1791135044-rYYqroVbDEcmL7bBMEFA"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "covering-1",
+      "question": "How much notice must the contractor give before covering work so measurements can be checked?",
+      "expected": "At least7days notice and written consent before covering work.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "The contractor must give not less than seven days' notice to the Engineer-in-Charge or his authorized representative in charge of the work before covering up or otherwise placing beyond the reach of checking and/or test checking the measurement of any work.",
+            "evidence_quote": "The contractor shall give not less than seven days' notice to the Engineer-in-Charge or his\nauthorized representative in charge of the work before covering up or otherwise placing\nbeyond the reach of checking and/or test checking the measurement of any work",
+            "citation_id": "contract-p23"
+          },
+          {
+            "text": "The work must not be covered up or placed beyond reach of measurement without the consent in writing of the Engineer-in-Charge or his authorized representative, who shall inspect the work within the aforesaid period of seven days.",
+            "evidence_quote": "shall not cover up and place beyond reach of measurement any\nwork without consent in writing of the Engineer-in-Charge or his authorized representative in\ncharge of the work who shall within the aforesaid period of seven days inspect the work",
+            "citation_id": "contract-p23"
+          },
+          {
+            "text": "If work is covered up or placed beyond reach of checking and/or test checking measurements without such notice or written consent, it shall be uncovered at the Contractor's expense, or in default no payment or allowance shall be made for such work or the materials.",
+            "evidence_quote": "if any work shall be covered up or placed beyond the reach of checking and/or test checking\nmeasurements without such notice having been given or the Engineer-in-Charge's consent\nbeing obtained in writing the same shall be uncovered at the Contractor's expense, or in\ndefault thereof no payment or allowance shall be made for such work or the materials with\nwhich the same was executed.",
+            "citation_id": "contract-p23"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p23",
+            "doc_id": "contract",
+            "page": 23
+          },
+          {
+            "id": "contract-p22",
+            "doc_id": "contract",
+            "page": 22
+          },
+          {
+            "id": "contract-p54",
+            "doc_id": "contract",
+            "page": 54
+          },
+          {
+            "id": "contract-p32",
+            "doc_id": "contract",
+            "page": 32
+          },
+          {
+            "id": "contract-p17",
+            "doc_id": "contract",
+            "page": 17
+          },
+          {
+            "id": "contract-p37",
+            "doc_id": "contract",
+            "page": 37
+          }
+        ],
+        "cost_usd": 0.000247771,
+        "cached": false,
+        "generation": "gen-1791135044-TVsxJHXrigtnHyN175yI"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "covering-2",
+      "question": "Under clause 6, what minimum notice is required before hiding work from measurement checks?",
+      "expected": "At least7days notice and written consent before covering work.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Under clause 6, the contractor must give not less than seven days' notice to the Engineer-in-Charge or his authorized representative in charge of the work before covering up or otherwise placing beyond the reach of checking and/or test checking the measurement of any work.",
+            "evidence_quote": "The contractor shall give not less than seven days' notice to the Engineer-in-Charge or his authorized representative in charge of the work before covering up or otherwise placing beyond the reach of checking and/or test checking the measurement of any work",
+            "citation_id": "contract-p23"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p23",
+            "doc_id": "contract",
+            "page": 23
+          },
+          {
+            "id": "contract-p33",
+            "doc_id": "contract",
+            "page": 33
+          },
+          {
+            "id": "contract-p48",
+            "doc_id": "contract",
+            "page": 48
+          },
+          {
+            "id": "contract-p16",
+            "doc_id": "contract",
+            "page": 16
+          },
+          {
+            "id": "contract-p22",
+            "doc_id": "contract",
+            "page": 22
+          },
+          {
+            "id": "contract-p17",
+            "doc_id": "contract",
+            "page": 17
+          }
+        ],
+        "cost_usd": 0.000172221,
+        "cached": false,
+        "generation": "gen-1791135046-NWVTDoZLkuwMGqrs4Pf9"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "interim-1",
+      "question": "When must an admissible intermediate bill be paid at the Engineer-in-Charge headquarters?",
+      "expected": "10th working day after presentation, extended to15working days outside headquarters.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "For works estimated to cost over Rs. Twenty lac, interim or running account bills are submitted by the contractor on the basis of recorded measurements on the Department's format in triplicate on or before the date of every month fixed by the Engineer-in-Charge.",
+            "evidence_quote": "For\nworks estimated to cost over Rs, Twenty lac the interim or running account bills shall be\nsubmitted by the contractor for the work executed on the basis of such recorded\nmeasurements on the format of the Department in triplicate on or before the date of every\nmonth fixed for the same by the Engineer-in-Charge.",
+            "citation_id": "contract-p23"
+          },
+          {
+            "text": "The amount admissible is to be paid by the 10th working day after the day of presentation of the bill by the Contractor to the Engineer-in-Charge or his Authorized Engineer together with the account of material issued by the department, or dismantled materials, if any.",
+            "evidence_quote": "The amount admissible\nshall be paid by 10th working day after the day of presentation of the bill by the Contractor to\nthe Engineer-in-Charge or his Authorized Engineer together with the account of the material\nissued by the department, or dismantled materials, if any.",
+            "citation_id": "contract-p24"
+          },
+          {
+            "text": "In the case of works outside the headquarters of the Engineer-in-Charge, the period of ten working days is extended to fifteen working days.",
+            "evidence_quote": "In the case of works outside the\nheadquarters of the Engineer- in-Charge, the period of ten working days will be extended to\nfifteen working days.",
+            "citation_id": "contract-p24"
+          },
+          {
+            "text": "If payment of intermediate bills is delayed beyond 45 days of submission of the bill, provided the bill is found to be in order, simple interest at 5% per annum is paid from the date of expiry of the prescribed time limit, compounded on a yearly basis.",
+            "evidence_quote": "In case of delay in payment of intermediate bills after 45 days of submission\nof bill by the contractor provided the bill submitted by the contractor found to be in order, a\nsimple interest @   5%  (five percent) per annum shall be paid to the contractor from the date\nof expiry of prescribed time limit which will be compounded on yearly basis",
+            "citation_id": "contract-p24"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p23",
+            "doc_id": "contract",
+            "page": 23
+          },
+          {
+            "id": "contract-p24",
+            "doc_id": "contract",
+            "page": 24
+          },
+          {
+            "id": "contract-p25",
+            "doc_id": "contract",
+            "page": 25
+          },
+          {
+            "id": "contract-p97",
+            "doc_id": "contract",
+            "page": 97
+          },
+          {
+            "id": "contract-p44",
+            "doc_id": "contract",
+            "page": 44
+          },
+          {
+            "id": "contract-p51",
+            "doc_id": "contract",
+            "page": 51
+          }
+        ],
+        "cost_usd": 0.000301821,
+        "cached": false,
+        "generation": "gen-1791135046-S4ZW7NZA3Ygfiueojja1"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "interim-2",
+      "question": "What is the normal payment deadline for an intermediate bill under CPWD clause 7?",
+      "expected": "10th working day after presentation, extended to15working days outside headquarters.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Under CPWD Clause 7, the amount admissible on an interim bill shall be paid by the 10th working day after the day of presentation of the bill by the Contractor to the Engineer-in-Charge or his Authorized Engineer, together with the account of materials issued by the department or dismantled materials, if any.",
+            "evidence_quote": "The amount admissible shall be paid by 10th working day after the day of presentation of the bill by the Contractor to the Engineer-in-Charge or his Authorized Engineer together with the account of the material issued by the department, or dismantled materials, if any.",
+            "citation_id": "contract-p24"
+          },
+          {
+            "text": "For works outside the headquarters of the Engineer-in-Charge, the period of ten working days is extended to fifteen working days.",
+            "evidence_quote": "In the case of works outside the headquarters of the Engineer- in-Charge, the period of ten working days will be extended to fifteen working days.",
+            "citation_id": "contract-p24"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p23",
+            "doc_id": "contract",
+            "page": 23
+          },
+          {
+            "id": "contract-p24",
+            "doc_id": "contract",
+            "page": 24
+          },
+          {
+            "id": "contract-p25",
+            "doc_id": "contract",
+            "page": 25
+          },
+          {
+            "id": "contract-p32",
+            "doc_id": "contract",
+            "page": 32
+          },
+          {
+            "id": "contract-p97",
+            "doc_id": "contract",
+            "page": 97
+          },
+          {
+            "id": "contract-p101",
+            "doc_id": "contract",
+            "page": 101
+          }
+        ],
+        "cost_usd": 0.000212796,
+        "cached": false,
+        "generation": "gen-1791135048-OvVJ0BJLlqOtdjWrE8tM"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "tribunal-1",
+      "question": "How many arbitrators are required when the claimed value exceeds Rs 20 crore?",
+      "expected": "Sole arbitrator up to20crore; three arbitrators above20crore.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Where the claimed value is more than Rs. 20 Crore, the Arbitral Tribunal shall consist of three Arbitrators.",
+            "evidence_quote": "Where claimed Value is more than Rs. 20 Crore, Tribunal shall consist of three Arbitrators as above.",
+            "citation_id": "contract-p49"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p49",
+            "doc_id": "contract",
+            "page": 49
+          },
+          {
+            "id": "contract-p19",
+            "doc_id": "contract",
+            "page": 19
+          },
+          {
+            "id": "contract-p50",
+            "doc_id": "contract",
+            "page": 50
+          },
+          {
+            "id": "contract-p25",
+            "doc_id": "contract",
+            "page": 25
+          },
+          {
+            "id": "contract-p102",
+            "doc_id": "contract",
+            "page": 102
+          },
+          {
+            "id": "contract-p103",
+            "doc_id": "contract",
+            "page": 103
+          }
+        ],
+        "cost_usd": 0.000175896,
+        "cached": false,
+        "generation": "gen-1791135048-3I01aG7dnMDOItiZXqdb"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "tribunal-2",
+      "question": "What changes in the arbitration tribunal when a claim is above twenty crore?",
+      "expected": "Sole arbitrator up to20crore; three arbitrators above20crore.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Where the claimed value is more than Rs. 20 Crore, the Tribunal shall consist of three Arbitrators.",
+            "evidence_quote": "Where claimed Value is more than Rs. 20 Crore, Tribunal shall consist of three Arbitrators as above.",
+            "citation_id": "contract-p49"
+          },
+          {
+            "text": "Where the Arbitral Tribunal consists of three Arbitrators, the contractor shall appoint one arbitrator within 30 days of making request for arbitration or of receipt of request by Engineer-in-charge to CE/ADG/SDG/DG for appointment of arbitrator, and two appointed arbitrators shall appoint the third arbitrator who shall act as the Presiding Arbitrator.",
+            "evidence_quote": "Wherever the Arbitral Tribunal consists of three Arbitrators, the contractor shall appoint one arbitrator within 30 days of making request for arbitration or of receipt of request by Engineer-in-charge to CE/ADG/ SDG /DG for appointment of arbitrator, as the case may be, and two appointed arbitrators shall appoint the third arbitrator who shall act as the Presiding Arbitrator.",
+            "citation_id": "contract-p49"
+          },
+          {
+            "text": "If a party fails to appoint the second Arbitrator, or the two appointed Arbitrators fail to appoint the Presiding Arbitrator, the Director General, CPWD shall appoint the second or Presiding Arbitrator as the case may be.",
+            "evidence_quote": "A party fails to appoint the second Arbitrator, or (b) The two appointed Arbitrators fail to appoint the Presiding Arbitrator, then the Director General, CPWD shall appoint the second or Presiding Arbitrator as the case may be.",
+            "citation_id": "contract-p49"
+          },
+          {
+            "text": "The CE/ADG/SDG shall appoint the sole arbitrator or one of the three arbitrators as the case may be within 30 days of receipt of such a request and refer such disputes to arbitration.",
+            "evidence_quote": "The CE/ADG/ SDG shall in such case appoint the sole arbitrator or one of the three arbitrators as the case may be within 30 days of receipt of such a request and refer such disputes to arbitration.",
+            "citation_id": "contract-p49"
+          },
+          {
+            "text": "Member(s) of the Arbitration Tribunal shall be a Graduate Engineer with experience in handling public works engineering contracts, and shall have earlier worked at a level not lower than Chief Engineer/equivalent (i.e. Joint Secretary level of Government of India), which is a mandatory qualification to be appointed as arbitrator.",
+            "evidence_quote": "member(s) of the Arbitration Tribunal shall be a Graduate Engineer with experience in handling public works engineering contracts, and further he shall have earlier worked at a level not lower than Chief Engineer/ equivalent (i.e. Joint Secretary level of Government of India). This shall be treated as a mandatory qualification to be appointed as arbitrator.",
+            "citation_id": "contract-p50"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "contract-p49",
+            "doc_id": "contract",
+            "page": 49
+          },
+          {
+            "id": "contract-p50",
+            "doc_id": "contract",
+            "page": 50
+          },
+          {
+            "id": "contract-p19",
+            "doc_id": "contract",
+            "page": 19
+          },
+          {
+            "id": "contract-p63",
+            "doc_id": "contract",
+            "page": 63
+          },
+          {
+            "id": "contract-p48",
+            "doc_id": "contract",
+            "page": 48
+          },
+          {
+            "id": "contract-p51",
+            "doc_id": "contract",
+            "page": 51
+          }
+        ],
+        "cost_usd": 0.000331621,
+        "cached": false,
+        "generation": "gen-1791135050-tDZdN13JSsMyUM3Xrnhv"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "monsoon-1",
+      "question": "क्या कार्य पूरा करने की अवधि में मानसून शामिल है?",
+      "expected": "Yes, completion period includes monsoon.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "कार्य पूर्ण करने की अवधि में मानसून अवधि सम्मिलित है।",
+            "evidence_quote": "कार्य पूर्ण करने की अवधि में मानसून अवधि सम्मिलित है।",
+            "citation_id": "tender-p4"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "tender-p4",
+            "doc_id": "tender",
+            "page": 4
+          },
+          {
+            "id": "tender-p3",
+            "doc_id": "tender",
+            "page": 3
+          },
+          {
+            "id": "contract-p32",
+            "doc_id": "contract",
+            "page": 32
+          },
+          {
+            "id": "contract-p40",
+            "doc_id": "contract",
+            "page": 40
+          },
+          {
+            "id": "contract-p24",
+            "doc_id": "contract",
+            "page": 24
+          },
+          {
+            "id": "contract-p48",
+            "doc_id": "contract",
+            "page": 48
+          }
+        ],
+        "cost_usd": 0.000296921,
+        "cached": false,
+        "generation": "gen-1791135051-fgTSE3hNZCacV61FAl2H"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "monsoon-2",
+      "question": "Does the tender completion period include the monsoon season?",
+      "expected": "Yes, completion period includes monsoon.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "insufficient_evidence",
+        "missing_information": "The supplied excerpts do not state whether the tender completion period includes the monsoon season. Clause 5.2 lists 'abnormally bad weather' as a ground for delay but does not define the completion period in relation to the monsoon season.",
+        "claims": [],
+        "evidence": [
+          {
+            "id": "contract-p32",
+            "doc_id": "contract",
+            "page": 32
+          },
+          {
+            "id": "contract-p30",
+            "doc_id": "contract",
+            "page": 30
+          },
+          {
+            "id": "contract-p21",
+            "doc_id": "contract",
+            "page": 21
+          },
+          {
+            "id": "contract-p12",
+            "doc_id": "contract",
+            "page": 12
+          },
+          {
+            "id": "contract-p101",
+            "doc_id": "contract",
+            "page": 101
+          },
+          {
+            "id": "contract-p16",
+            "doc_id": "contract",
+            "page": 16
+          }
+        ],
+        "cost_usd": 0.000144521,
+        "cached": false,
+        "generation": "gen-1791135051-vqbaS697vxRHPdNE7Bt3"
+      },
+      "status_matches": false,
+      "manual_review": {
+        "verdict": "false_abstention",
+        "note": "English query missed the Hindi sentence on tender PDF page4."
+      }
+    },
+    {
+      "id": "digital-1",
+      "question": "क्या डिजिटल साइन के बिना बोली स्वीकार होगी?",
+      "expected": "Unsigned digital bids rejected; physical-only bids not accepted.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "डिजिटल साइन के बिना प्रस्ताव स्वीकार नहीं किये जायेंगे।",
+            "evidence_quote": "जिनके प्रस्ताव डिजिटल साइन के साथ नहीं होंगे, उनके प्रस्ताव स्वीकार नहीं किये जायेंगे।",
+            "citation_id": "tender-p5"
+          },
+          {
+            "text": "निविदा दाताओं को निविदा प्रपत्र इलेक्ट्रॉनिक फार्मेट में वेबसाइट पर डिजिटल साइन के साथ प्रस्तुत करना होगा।",
+            "evidence_quote": "निविदा दाताओं को निविदा प्रपत्र इलेक्ट्रॉनिक फार्मेट में उपरोक्त वेबसाइट पर डिजिटल साइन के साथ प्रस्तुत करना होगा ।",
+            "citation_id": "tender-p5"
+          },
+          {
+            "text": "कोई भी प्रस्ताव अकेले भौतिक फार्म में स्वीकार्य नहीं होगा।",
+            "evidence_quote": "कोई भी प्रस्ताव अकेले भौतिक फार्म में स्वीकार्य नहीं होगा।",
+            "citation_id": "tender-p5"
+          },
+          {
+            "text": "ऑन लाइन निविदा में भाग लेने के लिए डिजिटल सर्टिफिकेट इनफार्मेशन टेक्नोलॉजी एक्ट - 2000 के तहत प्राप्त करना होगा, जो इलेक्ट्रॉनिक निविदा में साइन करने हेतु काम आयेगा।",
+            "evidence_quote": "ऑन लाइन निविदा में भाग लेने के लिए डिजिटल सर्टिफिकेट इनफार्मेशन टेक्नोलॉजी एक्ट - 2000 के तहत प्राप्त करना होगा जो इलेक्ट्रॉनिक निविदा में साइन करने हेतु काम आयेगा।",
+            "citation_id": "tender-p5"
+          },
+          {
+            "text": "जिन निविदा दाताओं के पास पूर्व में वैध डिजिटल सर्टिफिकेट हैं, नया डिजिटल सर्टिफिकेट लेने की आवश्यकता नहीं है।",
+            "evidence_quote": "जिन निविदा दाताओं के पास पूर्व में वैध डिजिटल सर्टिफिकेट हैं, नया डिजिटल सर्टिफिकेट लेने की आवश्यकता नहीं है।",
+            "citation_id": "tender-p5"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "tender-p5",
+            "doc_id": "tender",
+            "page": 5
+          },
+          {
+            "id": "tender-p4",
+            "doc_id": "tender",
+            "page": 4
+          },
+          {
+            "id": "standard-p1",
+            "doc_id": "standard",
+            "page": 1
+          },
+          {
+            "id": "contract-p90",
+            "doc_id": "contract",
+            "page": 90
+          },
+          {
+            "id": "tender-p3",
+            "doc_id": "tender",
+            "page": 3
+          }
+        ],
+        "cost_usd": 0.000484246,
+        "cached": false,
+        "generation": "gen-1791135052-S6MlDzhXqclr0yvlAFpy"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "digital-2",
+      "question": "Will a bid without a digital signature be accepted under the Rajasthan tender instructions?",
+      "expected": "Unsigned digital bids rejected; physical-only bids not accepted.",
+      "answerable": true,
+      "validation": "pass",
+      "result": {
+        "status": "answered",
+        "missing_information": "",
+        "claims": [
+          {
+            "text": "Under the Rajasthan e-tender instructions, bidders must submit the tender form electronically with a digital signature; proposals without a digital signature will not be accepted.",
+            "evidence_quote": "निविदा दाताओं को निविदा प्रपत्र इलेक्ट्रॉनिक फार्मेट में उपरोक्त वेबसाइट पर डिजिटल साइन के साथ प्रस्तुत करना होगा । जिनके प्रस्ताव डिजिटल साइन के साथ नहीं होंगे, उनके प्रस्ताव स्वीकार नहीं किये जायेंगे।",
+            "citation_id": "tender-p5"
+          },
+          {
+            "text": "A proposal in physical form alone is not acceptable.",
+            "evidence_quote": "कोई भी प्रस्ताव अकेले भौतिक फार्म में स्वीकार्य नहीं होगा।",
+            "citation_id": "tender-p5"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "tender-p4",
+            "doc_id": "tender",
+            "page": 4
+          },
+          {
+            "id": "tender-p6",
+            "doc_id": "tender",
+            "page": 6
+          },
+          {
+            "id": "contract-p59",
+            "doc_id": "contract",
+            "page": 59
+          },
+          {
+            "id": "tender-p5",
+            "doc_id": "tender",
+            "page": 5
+          },
+          {
+            "id": "contract-p101",
+            "doc_id": "contract",
+            "page": 101
+          },
+          {
+            "id": "contract-p6",
+            "doc_id": "contract",
+            "page": 6
+          }
+        ],
+        "cost_usd": 0.000244096,
+        "cached": false,
+        "generation": "gen-1791135052-12VYFOVjNDF9r7GbLKBd"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "supported_correct_answer",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "missing-1",
+      "question": "What is the cement rate per bag in the 2024 schedule of rates?",
+      "expected": "No schedule of rates was selected.",
+      "answerable": false,
+      "validation": "pass",
+      "result": {
+        "status": "insufficient_evidence",
+        "missing_information": "The supplied excerpts do not contain a 2024 schedule of rates or any cement rate per bag. The excerpts reference the Delhi Schedule of Rates only as a basis for determining theoretical quantities of cement and bitumen, without stating any rate.",
+        "claims": [],
+        "evidence": [
+          {
+            "id": "contract-p29",
+            "doc_id": "contract",
+            "page": 29
+          },
+          {
+            "id": "contract-p56",
+            "doc_id": "contract",
+            "page": 56
+          },
+          {
+            "id": "contract-p109",
+            "doc_id": "contract",
+            "page": 109
+          },
+          {
+            "id": "contract-p4",
+            "doc_id": "contract",
+            "page": 4
+          },
+          {
+            "id": "standard-p8",
+            "doc_id": "standard",
+            "page": 8
+          },
+          {
+            "id": "contract-p23",
+            "doc_id": "contract",
+            "page": 23
+          }
+        ],
+        "cost_usd": 0.000134096,
+        "cached": false,
+        "generation": "gen-1791135054-s9IJN1LJjFNiXxj8rv8f"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "correct_abstention",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "missing-2",
+      "question": "Who won the Yatri Niwas tender and what was the winning bid?",
+      "expected": "The notice does not report the award.",
+      "answerable": false,
+      "validation": "pass",
+      "result": {
+        "status": "insufficient_evidence",
+        "missing_information": "The supplied excerpts are a tender notice and CPWD integrity pact forms; they do not identify the successful bidder (contractor) for the Yatri Niwas tender or any winning bid amount. No award or bid-result document is provided.",
+        "claims": [],
+        "evidence": [
+          {
+            "id": "tender-p3",
+            "doc_id": "tender",
+            "page": 3
+          },
+          {
+            "id": "tender-p2",
+            "doc_id": "tender",
+            "page": 2
+          },
+          {
+            "id": "contract-p59",
+            "doc_id": "contract",
+            "page": 59
+          },
+          {
+            "id": "contract-p58",
+            "doc_id": "contract",
+            "page": 58
+          },
+          {
+            "id": "contract-p60",
+            "doc_id": "contract",
+            "page": 60
+          },
+          {
+            "id": "tender-p6",
+            "doc_id": "tender",
+            "page": 6
+          }
+        ],
+        "cost_usd": 0.000198746,
+        "cached": false,
+        "generation": "gen-1791135055-m8X7IkbWgAvAmTEAIXrA"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "correct_abstention",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "missing-3",
+      "question": "What are the 2026 amendments to IS 13920?",
+      "expected": "Only the supplied1993edition is indexed.",
+      "answerable": false,
+      "validation": "pass",
+      "result": {
+        "status": "insufficient_evidence",
+        "missing_information": "The supplied excerpts do not contain any 2026 amendments to IS 13920. The only amendment shown is Amendment No. 1, November 1995, to IS 13920:1993 (page 3, clause 6.2.1(b)). No 2026 amendment text, date, or content is present in the provided documents.",
+        "claims": [],
+        "evidence": [
+          {
+            "id": "standard-p22",
+            "doc_id": "standard",
+            "page": 22
+          },
+          {
+            "id": "standard-p1",
+            "doc_id": "standard",
+            "page": 1
+          },
+          {
+            "id": "standard-p8",
+            "doc_id": "standard",
+            "page": 8
+          },
+          {
+            "id": "standard-p23",
+            "doc_id": "standard",
+            "page": 23
+          },
+          {
+            "id": "contract-p79",
+            "doc_id": "contract",
+            "page": 79
+          },
+          {
+            "id": "contract-p74",
+            "doc_id": "contract",
+            "page": 74
+          }
+        ],
+        "cost_usd": 0.000134021,
+        "cached": false,
+        "generation": "gen-1791135056-1s42zfvSGGDG70n0Lfm9"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "correct_abstention",
+        "note": "Checked against expected answer and cited source text."
+      }
+    },
+    {
+      "id": "missing-4",
+      "question": "What is the exact bank account number of the winning contractor?",
+      "expected": "No winning contractor bank account is documented.",
+      "answerable": false,
+      "validation": "pass",
+      "result": {
+        "status": "insufficient_evidence",
+        "missing_information": "The supplied excerpts do not contain any bank account number of a winning contractor; they only contain blank bank guarantee formats and general wage-payment provisions.",
+        "claims": [],
+        "evidence": [
+          {
+            "id": "contract-p76",
+            "doc_id": "contract",
+            "page": 76
+          },
+          {
+            "id": "contract-p27",
+            "doc_id": "contract",
+            "page": 27
+          },
+          {
+            "id": "contract-p103",
+            "doc_id": "contract",
+            "page": 103
+          },
+          {
+            "id": "contract-p26",
+            "doc_id": "contract",
+            "page": 26
+          },
+          {
+            "id": "contract-p101",
+            "doc_id": "contract",
+            "page": 101
+          },
+          {
+            "id": "contract-p102",
+            "doc_id": "contract",
+            "page": 102
+          }
+        ],
+        "cost_usd": 0.000155521,
+        "cached": false,
+        "generation": "gen-1791135057-PzrT18vkDHpUeBQZlMWW"
+      },
+      "status_matches": true,
+      "manual_review": {
+        "verdict": "correct_abstention",
+        "note": "Checked against expected answer and cited source text."
+      }
+    }
+  ],
+  "usage": {
+    "charged_usd": 0.02290183,
+    "reserved_usd": 0,
+    "limit_usd": 0.5,
+    "calls": 131
+  },
+  "semantic_review": "Manually compared all final claims with their cited evidence and expected answers.19/20 answerable questions answered correctly; monsoon-2 declined because retrieval missed Hindi evidence.4/4 deliberately unanswerable questions declined correctly. Not a blind external benchmark.",
+  "index_fingerprint": "fea48508ec79a98107da900bd10e7fd54d9354d5e3ecb0c7dfe20ba76a261438",
+  "evidence_storage": "Page references point to artifacts/index/pages.jsonl and the original PDFs; claims retain the exact supporting quotes."
+}

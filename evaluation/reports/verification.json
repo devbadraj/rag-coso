@@ -1,0 +1,42 @@
+{
+  "tests": {
+    "result": "passed",
+    "count": 30
+  },
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "uv_lock_check": "passed",
+  "source_extraction": {
+    "pages": 142,
+    "matches_previous_extraction": true
+  },
+  "retrieval_comparisons": {
+    "sets": [
+      "dev",
+      "test",
+      "fresh",
+      "neural_holdout"
+    ],
+    "all_saved_metrics_unchanged": true
+  },
+  "adapted_weights_sha256": "ec3ae43a3bc2f803a29fc7cead3ee3ab20c33f1ff0beeead4d491adf47a103c4",
+  "uncached_reranker_inference": {
+    "candidates": 3,
+    "matches_saved_scores": true,
+    "absolute_tolerance": 0.0001
+  },
+  "browser_checks": {
+    "english_search": "passed",
+    "hindi_search": "passed",
+    "distinct_parent_pages": "passed",
+    "original_page_dialog": "passed",
+    "evaluation_view": "passed",
+    "server_alive_after_model_load": true
+  },
+  "paid_calls_during_cleanup": 0,
+  "existing_api_cost_usd": 0.02412782,
+  "limits": [
+    "Paid answer checks were not rerun after prompt cleanup.",
+    "Automatic source watching is disabled; restart Streamlit after code or configuration edits."
+  ]
+}

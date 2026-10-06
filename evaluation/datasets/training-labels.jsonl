@@ -1,0 +1,146 @@
+{"question_id": "scope-1", "chunk_id": "standard-p6-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "scope-1", "chunk_id": "standard-p21-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "scope-1", "chunk_id": "contract-p4-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "scope-2", "chunk_id": "standard-p6-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "scope-2", "chunk_id": "standard-p4-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "boundary-1", "chunk_id": "standard-p6-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "boundary-2", "chunk_id": "standard-p6-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "boundary-2", "chunk_id": "contract-p48-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "concrete-1", "chunk_id": "standard-p8-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "concrete-1", "chunk_id": "standard-p6-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "concrete-1", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "concrete-2", "chunk_id": "standard-p8-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "concrete-2", "chunk_id": "standard-p5-c4", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "concrete-2", "chunk_id": "contract-p46-c4", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "beam-width-1", "chunk_id": "standard-p8-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "beam-width-1", "chunk_id": "contract-p65-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "beam-width-2", "chunk_id": "standard-p8-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "steel-ratio-1", "chunk_id": "standard-p8-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "steel-ratio-1", "chunk_id": "standard-p7-c4", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "steel-ratio-2", "chunk_id": "standard-p8-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "steel-ratio-2", "chunk_id": "contract-p107-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "hoop-diameter-1", "chunk_id": "standard-p9-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "hoop-diameter-1", "chunk_id": "standard-p9-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "hoop-diameter-1", "chunk_id": "standard-p15-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "hoop-diameter-2", "chunk_id": "standard-p9-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "hoop-diameter-2", "chunk_id": "standard-p9-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-1", "chunk_id": "contract-p9-c5", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-1", "chunk_id": "contract-p9-c4", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-1", "chunk_id": "contract-p14-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-1", "chunk_id": "contract-p15-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "guarantee-2", "chunk_id": "contract-p14-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-2", "chunk_id": "contract-p9-c5", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "guarantee-2", "chunk_id": "contract-p5-c4", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "programme-1", "chunk_id": "contract-p20-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "programme-1", "chunk_id": "contract-p10-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "programme-2", "chunk_id": "contract-p20-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "programme-2", "chunk_id": "contract-p105-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "measurement-1", "chunk_id": "contract-p22-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "measurement-1", "chunk_id": "contract-p22-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "measurement-1", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "measurement-1", "chunk_id": "standard-p9-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "measurement-2", "chunk_id": "contract-p22-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "measurement-2", "chunk_id": "contract-p22-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "measurement-2", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "materials-1", "chunk_id": "contract-p26-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "materials-1", "chunk_id": "contract-p28-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "materials-1", "chunk_id": "standard-p21-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "materials-2", "chunk_id": "contract-p26-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "materials-2", "chunk_id": "contract-p30-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "sublet-1", "chunk_id": "contract-p48-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "sublet-1", "chunk_id": "contract-p54-c4", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "sublet-2", "chunk_id": "contract-p48-c1", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "sublet-2", "chunk_id": "standard-p22-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "deadline-1", "chunk_id": "tender-p3-c7", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-1", "chunk_id": "tender-p2-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-1", "chunk_id": "tender-p3-c8", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-1", "chunk_id": "tender-p2-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-1", "chunk_id": "tender-p3-c9", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "deadline-2", "chunk_id": "tender-p3-c8", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-2", "chunk_id": "tender-p2-c2", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-2", "chunk_id": "tender-p3-c7", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-2", "chunk_id": "tender-p2-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "deadline-2", "chunk_id": "tender-p3-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "deadline-2", "chunk_id": "contract-p101-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "cost-1", "chunk_id": "tender-p3-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "cost-1", "chunk_id": "tender-p2-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "cost-1", "chunk_id": "contract-p45-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "cost-2", "chunk_id": "tender-p3-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "cost-2", "chunk_id": "tender-p2-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "cost-2", "chunk_id": "contract-p47-c3", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "duration-1", "chunk_id": "tender-p3-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "duration-1", "chunk_id": "tender-p2-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "duration-2", "chunk_id": "tender-p3-c3", "label": 1, "reason": "Contains reviewed evidence anchor for this question."}
+{"question_id": "duration-2", "chunk_id": "tender-p2-c1", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "duration-2", "chunk_id": "contract-p25-c2", "label": 0, "reason": "Reviewed competing passage addresses a different requirement; held-out source pages excluded."}
+{"question_id": "extension-request-1", "chunk_id": "contract-p21-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "extension-request-1", "chunk_id": "contract-p21-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "extension-request-1", "chunk_id": "contract-p99-c1", "label": 0, "reason": "Competing text gives an extension application form, compensation rule or guarantee; it does not state the fourteen-day application deadline."}
+{"question_id": "extension-request-1", "chunk_id": "contract-p22-c1", "label": 0, "reason": "Competing text gives an extension application form, compensation rule or guarantee; it does not state the fourteen-day application deadline."}
+{"question_id": "extension-request-2", "chunk_id": "contract-p21-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "extension-request-2", "chunk_id": "contract-p21-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "extension-request-2", "chunk_id": "contract-p101-c2", "label": 0, "reason": "Competing text gives an extension application form, compensation rule or guarantee; it does not state the fourteen-day application deadline."}
+{"question_id": "extension-request-2", "chunk_id": "contract-p17-c2", "label": 0, "reason": "Competing text gives an extension application form, compensation rule or guarantee; it does not state the fourteen-day application deadline."}
+{"question_id": "completion-plans-1", "chunk_id": "contract-p25-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "completion-plans-1", "chunk_id": "contract-p15-c2", "label": 0, "reason": "Competing text concerns guarantee release or escalation bill intervals, not completion service plan submission."}
+{"question_id": "completion-plans-1", "chunk_id": "contract-p14-c3", "label": 0, "reason": "Competing text concerns guarantee release or escalation bill intervals, not completion service plan submission."}
+{"question_id": "completion-plans-2", "chunk_id": "contract-p25-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "completion-plans-2", "chunk_id": "contract-p15-c1", "label": 0, "reason": "Competing text concerns guarantee release or escalation bill intervals, not completion service plan submission."}
+{"question_id": "completion-plans-2", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Competing text concerns guarantee release or escalation bill intervals, not completion service plan submission."}
+{"question_id": "final-bill-1", "chunk_id": "contract-p25-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "final-bill-1", "chunk_id": "contract-p100-c2", "label": 0, "reason": "Competing text concerns dispute forms, quarterly escalation or security deposits, not the deadline for submitting a final bill."}
+{"question_id": "final-bill-1", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Competing text concerns dispute forms, quarterly escalation or security deposits, not the deadline for submitting a final bill."}
+{"question_id": "final-bill-2", "chunk_id": "contract-p25-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "final-bill-2", "chunk_id": "contract-p15-c2", "label": 0, "reason": "Competing text concerns dispute forms, quarterly escalation or security deposits, not the deadline for submitting a final bill."}
+{"question_id": "final-bill-2", "chunk_id": "contract-p32-c2", "label": 0, "reason": "Competing text concerns dispute forms, quarterly escalation or security deposits, not the deadline for submitting a final bill."}
+{"question_id": "price-indices-1", "chunk_id": "contract-p29-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "price-indices-1", "chunk_id": "contract-p31-c2", "label": 0, "reason": "Competing text concerns other escalation indices, base-price schedule blanks or concrete design; it does not identify the DG as issuer of the specified material indices."}
+{"question_id": "price-indices-1", "chunk_id": "contract-p107-c1", "label": 0, "reason": "Competing text concerns other escalation indices, base-price schedule blanks or concrete design; it does not identify the DG as issuer of the specified material indices."}
+{"question_id": "price-indices-1", "chunk_id": "standard-p8-c1", "label": 0, "reason": "Competing text concerns other escalation indices, base-price schedule blanks or concrete design; it does not identify the DG as issuer of the specified material indices."}
+{"question_id": "price-indices-2", "chunk_id": "contract-p29-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "price-indices-2", "chunk_id": "contract-p30-c1", "label": 1, "reason": "Reviewed alternate answer: CI is the price index for cement and steel issued under the authority of DG, CPWD."}
+{"question_id": "price-indices-2", "chunk_id": "contract-p31-c3", "label": 0, "reason": "Competing text concerns other escalation indices, base-price schedule blanks or concrete design; it does not identify the DG as issuer of the specified material indices."}
+{"question_id": "price-indices-2", "chunk_id": "standard-p5-c5", "label": 0, "reason": "Competing text concerns other escalation indices, base-price schedule blanks or concrete design; it does not identify the DG as issuer of the specified material indices."}
+{"question_id": "dismantled-material-1", "chunk_id": "contract-p34-c1", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "dismantled-material-1", "chunk_id": "contract-p30-c3", "label": 0, "reason": "Competing text concerns purchased materials, escalation or concrete design, not ownership of recovered dismantling materials."}
+{"question_id": "dismantled-material-1", "chunk_id": "standard-p6-c1", "label": 0, "reason": "Competing text concerns purchased materials, escalation or concrete design, not ownership of recovered dismantling materials."}
+{"question_id": "dismantled-material-2", "chunk_id": "contract-p34-c1", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "dismantled-material-2", "chunk_id": "contract-p38-c3", "label": 0, "reason": "Competing text concerns purchased materials, escalation or concrete design, not ownership of recovered dismantling materials."}
+{"question_id": "dismantled-material-2", "chunk_id": "contract-p30-c2", "label": 0, "reason": "Competing text concerns purchased materials, escalation or concrete design, not ownership of recovered dismantling materials."}
+{"question_id": "rate-finalization-1", "chunk_id": "contract-p35-c4", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "rate-finalization-1", "chunk_id": "contract-p25-c5", "label": 0, "reason": "Competing text concerns final-bill payment, material-price adjustment, incidental work or milestone decisions, not the forty-five-day rate finalization deadline."}
+{"question_id": "rate-finalization-1", "chunk_id": "contract-p29-c3", "label": 0, "reason": "Competing text concerns final-bill payment, material-price adjustment, incidental work or milestone decisions, not the forty-five-day rate finalization deadline."}
+{"question_id": "rate-finalization-2", "chunk_id": "contract-p35-c4", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "rate-finalization-2", "chunk_id": "contract-p36-c2", "label": 0, "reason": "Competing text concerns final-bill payment, material-price adjustment, incidental work or milestone decisions, not the forty-five-day rate finalization deadline."}
+{"question_id": "rate-finalization-2", "chunk_id": "contract-p21-c4", "label": 0, "reason": "Competing text concerns final-bill payment, material-price adjustment, incidental work or milestone decisions, not the forty-five-day rate finalization deadline."}
+{"question_id": "part-work-default-1", "chunk_id": "contract-p37-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "part-work-default-1", "chunk_id": "contract-p48-c3", "label": 0, "reason": "Competing text concerns structural-defect liability or termination under clause 3, not the seven working days specified by clause 14."}
+{"question_id": "part-work-default-1", "chunk_id": "contract-p48-c4", "label": 0, "reason": "Competing text concerns structural-defect liability or termination under clause 3, not the seven working days specified by clause 14."}
+{"question_id": "part-work-default-2", "chunk_id": "contract-p37-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "part-work-default-2", "chunk_id": "contract-p18-c1", "label": 0, "reason": "Competing text concerns structural-defect liability or termination under clause 3, not the seven working days specified by clause 14."}
+{"question_id": "part-work-default-2", "chunk_id": "contract-p17-c3", "label": 0, "reason": "Competing text concerns structural-defect liability or termination under clause 3, not the seven working days specified by clause 14."}
+{"question_id": "labour-huts-1", "chunk_id": "contract-p45-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "labour-huts-1", "chunk_id": "contract-p73-c2", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "labour-huts-1", "chunk_id": "contract-p41-c3", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "labour-huts-1", "chunk_id": "standard-p15-c1", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "labour-huts-2", "chunk_id": "contract-p45-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "labour-huts-2", "chunk_id": "contract-p46-c3", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "labour-huts-2", "chunk_id": "contract-p77-c1", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "labour-huts-2", "chunk_id": "standard-p9-c1", "label": 0, "reason": "Competing text concerns creches, welfare cost recovery, sanitation, wage deductions or concrete hoops, not hut eaves height."}
+{"question_id": "qualified-tradesmen-1", "chunk_id": "contract-p47-c1", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "qualified-tradesmen-1", "chunk_id": "contract-p47-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "qualified-tradesmen-1", "chunk_id": "contract-p54-c4", "label": 0, "reason": "Competing text concerns supervisor competence, penalty authority blanks, welfare recovery, labour discipline or steel ratios, not the twenty-percent trade certificate requirement."}
+{"question_id": "qualified-tradesmen-1", "chunk_id": "contract-p108-c1", "label": 0, "reason": "Competing text concerns supervisor competence, penalty authority blanks, welfare recovery, labour discipline or steel ratios, not the twenty-percent trade certificate requirement."}
+{"question_id": "qualified-tradesmen-2", "chunk_id": "contract-p47-c1", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "qualified-tradesmen-2", "chunk_id": "contract-p47-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "qualified-tradesmen-2", "chunk_id": "contract-p41-c3", "label": 0, "reason": "Competing text concerns supervisor competence, penalty authority blanks, welfare recovery, labour discipline or steel ratios, not the twenty-percent trade certificate requirement."}
+{"question_id": "qualified-tradesmen-2", "chunk_id": "contract-p90-c4", "label": 0, "reason": "Competing text concerns supervisor competence, penalty authority blanks, welfare recovery, labour discipline or steel ratios, not the twenty-percent trade certificate requirement."}
+{"question_id": "arbitration-fees-1", "chunk_id": "contract-p50-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "arbitration-fees-1", "chunk_id": "contract-p50-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "arbitration-fees-1", "chunk_id": "contract-p63-c4", "label": 0, "reason": "Competing text concerns integrity agreements, arbitrator appointment forms, extra-work time or tender processing fees, not sharing tribunal fees."}
+{"question_id": "arbitration-fees-1", "chunk_id": "contract-p60-c2", "label": 0, "reason": "Competing text concerns integrity agreements, arbitrator appointment forms, extra-work time or tender processing fees, not sharing tribunal fees."}
+{"question_id": "arbitration-fees-2", "chunk_id": "contract-p50-c2", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "arbitration-fees-2", "chunk_id": "contract-p50-c3", "label": 1, "reason": "Contains the source-reviewed answer for this training question."}
+{"question_id": "arbitration-fees-2", "chunk_id": "contract-p100-c1", "label": 0, "reason": "Competing text concerns integrity agreements, arbitrator appointment forms, extra-work time or tender processing fees, not sharing tribunal fees."}
+{"question_id": "arbitration-fees-2", "chunk_id": "contract-p34-c4", "label": 0, "reason": "Competing text concerns integrity agreements, arbitrator appointment forms, extra-work time or tender processing fees, not sharing tribunal fees."}
+{"question_id": "arbitration-fees-2", "chunk_id": "tender-p3-c6", "label": 0, "reason": "Competing text concerns integrity agreements, arbitrator appointment forms, extra-work time or tender processing fees, not sharing tribunal fees."}

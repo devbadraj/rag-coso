@@ -1,0 +1,9 @@
+[
+  {
+    "doc_id": "standard",
+    "page": 8,
+    "before": "ρ_min = 0.24 √(f_ck/f_y)",
+    "after": "ρ_min = 0.24 √f_ck / f_y",
+    "reason": "Visually checked PDF page 8, clause 6.2.1(b). The square-root bar covers f_ck only; vision incorrectly included f_y under the radical. Original API extraction is retained in artifacts/ocr."
+  }
+]

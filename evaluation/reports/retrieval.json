@@ -1,0 +1,2250 @@
+{
+  "index_fingerprint": "fea48508ec79a98107da900bd10e7fd54d9354d5e3ecb0c7dfe20ba76a261438",
+  "split_counts": {
+    "train": 48,
+    "dev": 8,
+    "test": 24,
+    "fresh": 10,
+    "neural_holdout": 12
+  },
+  "model": {
+    "criterion": "development MRR, hit@5, earlier epoch breaks ties; test sets are never scored during training",
+    "dev_mrr": 0.875,
+    "baseline_dev_mrr": 0.7916666666666666,
+    "pretrained_dev_mrr": 0.875,
+    "pretrained_dev_hit_at_5": 0.875,
+    "trials": [
+      {
+        "epoch": 1,
+        "train_loss": 0.4409056813519907,
+        "dev_mrr": 0.875,
+        "dev_hit_at_5": 0.875
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.4056612823369007,
+        "dev_mrr": 0.875,
+        "dev_hit_at_5": 0.875
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.3966335750708025,
+        "dev_mrr": 0.875,
+        "dev_hit_at_5": 0.875
+      }
+    ]
+  },
+  "splits": {
+    "dev": {
+      "baseline": {
+        "questions": 8,
+        "hit_at_5": 0.875,
+        "mrr": 0.7916666666666666,
+        "candidate_recall": 0.875,
+        "details": [
+          {
+            "id": "crosstie-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p15-c3",
+              "standard-p9-c1",
+              "standard-p11-c1",
+              "standard-p16-c2",
+              "standard-p12-c1"
+            ]
+          },
+          {
+            "id": "crosstie-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p16-c2",
+              "standard-p10-c2",
+              "standard-p15-c2",
+              "standard-p16-c3",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "mobilization-1",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c5",
+              "contract-p28-c1",
+              "contract-p27-c3",
+              "contract-p27-c4",
+              "contract-p31-c1",
+              "contract-p28-c5"
+            ]
+          },
+          {
+            "id": "mobilization-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c3",
+              "contract-p27-c5",
+              "contract-p28-c1",
+              "contract-p27-c4",
+              "contract-p9-c4",
+              "contract-p31-c1"
+            ]
+          },
+          {
+            "id": "specification-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "contract-p107-c2",
+              "contract-p13-c1",
+              "contract-p28-c3",
+              "contract-p31-c2",
+              "contract-p73-c2"
+            ]
+          },
+          {
+            "id": "specification-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "standard-p5-c2",
+              "contract-p34-c1",
+              "standard-p5-c3",
+              "contract-p48-c4",
+              "contract-p12-c1"
+            ]
+          },
+          {
+            "id": "ubn-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p6-c1",
+              "contract-p8-c2",
+              "contract-p101-c3",
+              "contract-p59-c1",
+              "contract-p109-c1",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "ubn-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "tender-p3-c8",
+              "tender-p4-c1",
+              "tender-p3-c3",
+              "tender-p3-c9",
+              "tender-p2-c1",
+              "tender-p5-c5"
+            ]
+          }
+        ]
+      },
+      "pretrained": {
+        "questions": 8,
+        "hit_at_5": 0.875,
+        "mrr": 0.875,
+        "candidate_recall": 0.875,
+        "details": [
+          {
+            "id": "crosstie-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p11-c1",
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p15-c3",
+              "standard-p12-c1"
+            ]
+          },
+          {
+            "id": "crosstie-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p15-c1",
+              "standard-p10-c3",
+              "standard-p10-c2"
+            ]
+          },
+          {
+            "id": "mobilization-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c3",
+              "contract-p27-c4",
+              "contract-p27-c5",
+              "contract-p28-c1",
+              "contract-p27-c2",
+              "contract-p28-c5"
+            ]
+          },
+          {
+            "id": "mobilization-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c3",
+              "contract-p28-c1",
+              "contract-p27-c5",
+              "contract-p27-c4",
+              "contract-p25-c3",
+              "contract-p27-c2"
+            ]
+          },
+          {
+            "id": "specification-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "contract-p34-c3",
+              "contract-p107-c2",
+              "contract-p34-c1",
+              "contract-p13-c1",
+              "contract-p56-c4"
+            ]
+          },
+          {
+            "id": "specification-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "contract-p30-c1",
+              "contract-p39-c5",
+              "contract-p23-c1",
+              "contract-p41-c1",
+              "contract-p26-c4"
+            ]
+          },
+          {
+            "id": "ubn-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p6-c1",
+              "tender-p3-c1",
+              "tender-p3-c8",
+              "contract-p12-c3",
+              "standard-p23-c1",
+              "tender-p3-c7"
+            ]
+          },
+          {
+            "id": "ubn-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "tender-p2-c1",
+              "tender-p1-c1",
+              "tender-p1-c3",
+              "tender-p3-c7",
+              "tender-p4-c4",
+              "tender-p5-c1"
+            ]
+          }
+        ]
+      },
+      "trained": {
+        "questions": 8,
+        "hit_at_5": 0.875,
+        "mrr": 0.875,
+        "candidate_recall": 0.875,
+        "details": [
+          {
+            "id": "crosstie-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p11-c1",
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p12-c1",
+              "standard-p15-c3"
+            ]
+          },
+          {
+            "id": "crosstie-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p11-c2",
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p15-c1",
+              "standard-p10-c3",
+              "standard-p10-c2"
+            ]
+          },
+          {
+            "id": "mobilization-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c3",
+              "contract-p27-c4",
+              "contract-p27-c5",
+              "contract-p28-c1",
+              "contract-p27-c2",
+              "contract-p28-c5"
+            ]
+          },
+          {
+            "id": "mobilization-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p27-c3",
+              "contract-p28-c1",
+              "contract-p27-c5",
+              "contract-p27-c4",
+              "contract-p27-c2",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "specification-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "contract-p34-c3",
+              "contract-p107-c2",
+              "contract-p34-c1",
+              "contract-p13-c1",
+              "contract-p56-c4"
+            ]
+          },
+          {
+            "id": "specification-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p51-c1",
+              "contract-p30-c1",
+              "contract-p39-c5",
+              "contract-p23-c1",
+              "contract-p41-c1",
+              "contract-p26-c4"
+            ]
+          },
+          {
+            "id": "ubn-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p6-c1",
+              "tender-p3-c1",
+              "tender-p3-c8",
+              "standard-p23-c1",
+              "contract-p12-c3",
+              "tender-p3-c7"
+            ]
+          },
+          {
+            "id": "ubn-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "tender-p2-c1",
+              "tender-p1-c1",
+              "tender-p1-c3",
+              "tender-p3-c7",
+              "tender-p4-c4",
+              "tender-p5-c1"
+            ]
+          }
+        ]
+      }
+    },
+    "test": {
+      "baseline": {
+        "questions": 20,
+        "hit_at_5": 0.95,
+        "mrr": 0.7933333333333333,
+        "candidate_recall": 0.95,
+        "details": [
+          {
+            "id": "column-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c2",
+              "standard-p7-c2",
+              "standard-p10-c3",
+              "standard-p11-c2",
+              "standard-p13-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "column-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p10-c2",
+              "standard-p13-c1",
+              "standard-p16-c1",
+              "standard-p15-c1",
+              "standard-p13-c2"
+            ]
+          },
+          {
+            "id": "column-lap-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p5-c3",
+              "standard-p13-c2",
+              "standard-p19-c1"
+            ]
+          },
+          {
+            "id": "column-lap-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p5-c3",
+              "standard-p13-c2",
+              "standard-p13-c1"
+            ]
+          },
+          {
+            "id": "footing-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p15-c3",
+              "standard-p18-c4",
+              "standard-p15-c1",
+              "standard-p13-c2",
+              "standard-p11-c3"
+            ]
+          },
+          {
+            "id": "footing-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p13-c2",
+              "standard-p15-c3",
+              "standard-p16-c3",
+              "standard-p15-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "wall-1",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c2",
+              "standard-p17-c3",
+              "standard-p17-c1",
+              "standard-p17-c4",
+              "standard-p7-c3",
+              "standard-p5-c2"
+            ]
+          },
+          {
+            "id": "wall-2",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c2",
+              "standard-p17-c3",
+              "standard-p17-c1",
+              "standard-p17-c4",
+              "standard-p17-c5",
+              "standard-p19-c1"
+            ]
+          },
+          {
+            "id": "delay-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p16-c4",
+              "contract-p17-c1",
+              "contract-p16-c2",
+              "contract-p17-c2",
+              "contract-p39-c3"
+            ]
+          },
+          {
+            "id": "delay-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p16-c2",
+              "contract-p19-c3",
+              "contract-p25-c3",
+              "contract-p16-c4",
+              "contract-p28-c1"
+            ]
+          },
+          {
+            "id": "covering-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p22-c2",
+              "contract-p22-c3",
+              "contract-p23-c3",
+              "contract-p54-c2"
+            ]
+          },
+          {
+            "id": "covering-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p23-c3",
+              "contract-p33-c2",
+              "contract-p48-c4",
+              "contract-p16-c2"
+            ]
+          },
+          {
+            "id": "interim-1",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c5",
+              "contract-p24-c1",
+              "contract-p23-c4",
+              "contract-p25-c3",
+              "contract-p97-c2",
+              "contract-p44-c2"
+            ]
+          },
+          {
+            "id": "interim-2",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c5",
+              "contract-p24-c1",
+              "contract-p25-c5",
+              "contract-p24-c4",
+              "contract-p23-c4",
+              "contract-p25-c4"
+            ]
+          },
+          {
+            "id": "tribunal-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p19-c3",
+              "contract-p49-c3",
+              "contract-p50-c2",
+              "contract-p25-c4",
+              "contract-p50-c3"
+            ]
+          },
+          {
+            "id": "tribunal-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p50-c2",
+              "contract-p50-c3",
+              "contract-p50-c1",
+              "contract-p49-c3",
+              "contract-p19-c3"
+            ]
+          },
+          {
+            "id": "monsoon-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p4-c7",
+              "tender-p3-c9",
+              "tender-p4-c1",
+              "tender-p4-c4",
+              "tender-p3-c2",
+              "contract-p32-c2"
+            ]
+          },
+          {
+            "id": "monsoon-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "contract-p32-c2",
+              "contract-p30-c4",
+              "contract-p21-c3",
+              "contract-p12-c3",
+              "contract-p101-c3",
+              "contract-p12-c2"
+            ]
+          },
+          {
+            "id": "digital-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p5-c5",
+              "tender-p5-c2",
+              "tender-p5-c3",
+              "tender-p4-c4",
+              "tender-p5-c4",
+              "tender-p4-c3"
+            ]
+          },
+          {
+            "id": "digital-2",
+            "rank": 5,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p4-c10",
+              "tender-p4-c11",
+              "tender-p6-c1",
+              "contract-p59-c2",
+              "tender-p5-c5",
+              "contract-p59-c1"
+            ]
+          }
+        ]
+      },
+      "pretrained": {
+        "questions": 20,
+        "hit_at_5": 0.95,
+        "mrr": 0.95,
+        "candidate_recall": 0.95,
+        "details": [
+          {
+            "id": "column-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c2",
+              "standard-p9-c2",
+              "standard-p11-c2",
+              "standard-p10-c3",
+              "standard-p9-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "column-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p10-c2",
+              "standard-p16-c1",
+              "standard-p11-c1",
+              "standard-p13-c1",
+              "standard-p15-c1"
+            ]
+          },
+          {
+            "id": "column-lap-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p18-c4",
+              "standard-p5-c3",
+              "standard-p13-c1"
+            ]
+          },
+          {
+            "id": "column-lap-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p5-c3",
+              "standard-p10-c2",
+              "standard-p8-c4",
+              "standard-p19-c1"
+            ]
+          },
+          {
+            "id": "footing-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p15-c1",
+              "standard-p18-c5",
+              "standard-p18-c3",
+              "standard-p17-c1",
+              "standard-p18-c4"
+            ]
+          },
+          {
+            "id": "footing-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p5-c3",
+              "standard-p11-c1",
+              "standard-p17-c1",
+              "standard-p10-c3",
+              "standard-p16-c3"
+            ]
+          },
+          {
+            "id": "wall-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c1",
+              "standard-p17-c2",
+              "standard-p5-c3",
+              "standard-p17-c3",
+              "standard-p5-c2",
+              "standard-p9-c2"
+            ]
+          },
+          {
+            "id": "wall-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c1",
+              "standard-p17-c2",
+              "standard-p17-c3",
+              "standard-p17-c4",
+              "standard-p19-c1",
+              "standard-p9-c2"
+            ]
+          },
+          {
+            "id": "delay-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p17-c1",
+              "contract-p17-c2",
+              "contract-p16-c4",
+              "contract-p16-c2",
+              "contract-p30-c4"
+            ]
+          },
+          {
+            "id": "delay-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p16-c2",
+              "contract-p38-c1",
+              "contract-p17-c2",
+              "contract-p17-c1",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "covering-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p23-c3",
+              "contract-p22-c3",
+              "contract-p22-c2",
+              "contract-p23-c4"
+            ]
+          },
+          {
+            "id": "covering-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p23-c3",
+              "contract-p22-c3",
+              "contract-p22-c1",
+              "contract-p54-c2"
+            ]
+          },
+          {
+            "id": "interim-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p24-c1",
+              "contract-p23-c5",
+              "contract-p25-c4",
+              "contract-p23-c4",
+              "contract-p24-c3",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "interim-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p24-c1",
+              "contract-p24-c4",
+              "contract-p23-c4",
+              "contract-p23-c5",
+              "contract-p24-c3",
+              "contract-p24-c5"
+            ]
+          },
+          {
+            "id": "tribunal-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p50-c2",
+              "contract-p49-c3",
+              "tender-p5-c3",
+              "contract-p50-c1",
+              "contract-p25-c4"
+            ]
+          },
+          {
+            "id": "tribunal-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p50-c2",
+              "tender-p5-c3",
+              "contract-p50-c1",
+              "contract-p50-c3",
+              "tender-p4-c2"
+            ]
+          },
+          {
+            "id": "monsoon-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p4-c7",
+              "contract-p32-c2",
+              "contract-p24-c3",
+              "contract-p16-c3",
+              "contract-p56-c2",
+              "contract-p48-c4"
+            ]
+          },
+          {
+            "id": "monsoon-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "contract-p32-c2",
+              "contract-p30-c4",
+              "contract-p29-c1",
+              "contract-p25-c4",
+              "contract-p30-c1",
+              "contract-p32-c1"
+            ]
+          },
+          {
+            "id": "digital-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p5-c5",
+              "tender-p5-c3",
+              "tender-p5-c4",
+              "tender-p5-c6",
+              "tender-p4-c3",
+              "contract-p90-c2"
+            ]
+          },
+          {
+            "id": "digital-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p5-c5",
+              "tender-p5-c6",
+              "tender-p5-c4",
+              "tender-p5-c7",
+              "tender-p5-c3",
+              "tender-p4-c11"
+            ]
+          }
+        ]
+      },
+      "trained": {
+        "questions": 20,
+        "hit_at_5": 0.95,
+        "mrr": 0.95,
+        "candidate_recall": 0.95,
+        "details": [
+          {
+            "id": "column-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c2",
+              "standard-p9-c2",
+              "standard-p11-c2",
+              "standard-p10-c3",
+              "standard-p9-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "column-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p10-c2",
+              "standard-p16-c1",
+              "standard-p11-c1",
+              "standard-p13-c1",
+              "standard-p15-c1"
+            ]
+          },
+          {
+            "id": "column-lap-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p18-c4",
+              "standard-p5-c3",
+              "standard-p13-c1"
+            ]
+          },
+          {
+            "id": "column-lap-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p5-c3",
+              "standard-p10-c2",
+              "standard-p8-c4",
+              "standard-p19-c1"
+            ]
+          },
+          {
+            "id": "footing-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p15-c1",
+              "standard-p18-c5",
+              "standard-p17-c1",
+              "standard-p18-c3",
+              "standard-p18-c4"
+            ]
+          },
+          {
+            "id": "footing-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p13-c1",
+              "standard-p5-c3",
+              "standard-p11-c1",
+              "standard-p17-c1",
+              "standard-p10-c3",
+              "standard-p16-c3"
+            ]
+          },
+          {
+            "id": "wall-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c1",
+              "standard-p17-c2",
+              "standard-p5-c3",
+              "standard-p9-c2",
+              "standard-p17-c3",
+              "standard-p5-c2"
+            ]
+          },
+          {
+            "id": "wall-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p17-c1",
+              "standard-p17-c2",
+              "standard-p17-c3",
+              "standard-p17-c4",
+              "standard-p9-c2",
+              "standard-p19-c1"
+            ]
+          },
+          {
+            "id": "delay-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p17-c1",
+              "contract-p17-c2",
+              "contract-p16-c2",
+              "contract-p16-c4",
+              "contract-p30-c4"
+            ]
+          },
+          {
+            "id": "delay-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p16-c3",
+              "contract-p16-c2",
+              "contract-p38-c1",
+              "contract-p17-c2",
+              "contract-p17-c1",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "covering-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p23-c3",
+              "contract-p22-c3",
+              "contract-p22-c2",
+              "contract-p23-c4"
+            ]
+          },
+          {
+            "id": "covering-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p23-c1",
+              "contract-p23-c2",
+              "contract-p23-c3",
+              "contract-p22-c3",
+              "contract-p22-c1",
+              "contract-p54-c2"
+            ]
+          },
+          {
+            "id": "interim-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p24-c1",
+              "contract-p23-c5",
+              "contract-p25-c4",
+              "contract-p23-c4",
+              "contract-p24-c3",
+              "contract-p25-c3"
+            ]
+          },
+          {
+            "id": "interim-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p24-c1",
+              "contract-p24-c4",
+              "contract-p23-c4",
+              "contract-p23-c5",
+              "contract-p24-c3",
+              "contract-p24-c5"
+            ]
+          },
+          {
+            "id": "tribunal-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p50-c2",
+              "contract-p49-c3",
+              "tender-p5-c3",
+              "contract-p50-c1",
+              "contract-p25-c4"
+            ]
+          },
+          {
+            "id": "tribunal-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p49-c4",
+              "contract-p50-c2",
+              "tender-p5-c3",
+              "contract-p50-c1",
+              "contract-p50-c3",
+              "tender-p4-c2"
+            ]
+          },
+          {
+            "id": "monsoon-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p4-c7",
+              "contract-p32-c2",
+              "contract-p24-c3",
+              "contract-p16-c3",
+              "contract-p56-c2",
+              "contract-p48-c4"
+            ]
+          },
+          {
+            "id": "monsoon-2",
+            "rank": null,
+            "hit_at_5": false,
+            "candidate_hit": false,
+            "top_ids": [
+              "contract-p32-c2",
+              "contract-p30-c4",
+              "contract-p25-c4",
+              "contract-p29-c1",
+              "contract-p30-c1",
+              "contract-p32-c1"
+            ]
+          },
+          {
+            "id": "digital-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p5-c5",
+              "tender-p5-c3",
+              "tender-p5-c4",
+              "tender-p5-c6",
+              "tender-p4-c3",
+              "contract-p90-c2"
+            ]
+          },
+          {
+            "id": "digital-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "tender-p5-c5",
+              "tender-p5-c6",
+              "tender-p5-c4",
+              "tender-p5-c7",
+              "tender-p5-c3",
+              "tender-p4-c11"
+            ]
+          }
+        ]
+      }
+    },
+    "fresh": {
+      "baseline": {
+        "questions": 10,
+        "hit_at_5": 0.8,
+        "mrr": 0.6789044289044288,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "defects-1",
+            "rank": 22,
+            "hit_at_5": false,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c5",
+              "contract-p63-c2",
+              "contract-p23-c3",
+              "contract-p32-c2",
+              "contract-p41-c5",
+              "contract-p16-c3"
+            ]
+          },
+          {
+            "id": "defects-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c3",
+              "contract-p16-c3",
+              "contract-p23-c3",
+              "contract-p40-c4",
+              "contract-p56-c2",
+              "contract-p24-c5"
+            ]
+          },
+          {
+            "id": "labour-statements-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c3",
+              "contract-p44-c1",
+              "contract-p47-c2",
+              "contract-p47-c1",
+              "contract-p16-c2",
+              "contract-p108-c1"
+            ]
+          },
+          {
+            "id": "labour-statements-2",
+            "rank": 13,
+            "hit_at_5": false,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c4",
+              "contract-p77-c3",
+              "contract-p75-c3",
+              "contract-p42-c3",
+              "contract-p28-c3",
+              "contract-p33-c2"
+            ]
+          },
+          {
+            "id": "tax-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p37-c3",
+              "contract-p26-c3",
+              "contract-p39-c1",
+              "contract-p55-c2"
+            ]
+          },
+          {
+            "id": "tax-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p55-c2",
+              "contract-p55-c1",
+              "contract-p8-c3",
+              "contract-p101-c2"
+            ]
+          },
+          {
+            "id": "integrity-1",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p59-c2",
+              "contract-p63-c2",
+              "contract-p58-c1",
+              "contract-p62-c4",
+              "contract-p64-c1",
+              "contract-p62-c3"
+            ]
+          },
+          {
+            "id": "integrity-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p58-c1",
+              "contract-p59-c1",
+              "contract-p59-c2",
+              "contract-p60-c1",
+              "contract-p63-c4",
+              "contract-p64-c1"
+            ]
+          },
+          {
+            "id": "column-example-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c2",
+              "standard-p11-c2",
+              "standard-p16-c3",
+              "standard-p11-c1",
+              "standard-p16-c1",
+              "standard-p15-c1"
+            ]
+          },
+          {
+            "id": "column-example-2",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c3",
+              "standard-p11-c2",
+              "standard-p16-c2",
+              "standard-p11-c1",
+              "standard-p16-c1",
+              "standard-p15-c1"
+            ]
+          }
+        ]
+      },
+      "pretrained": {
+        "questions": 10,
+        "hit_at_5": 1.0,
+        "mrr": 0.8833333333333334,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "defects-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c3",
+              "contract-p40-c5",
+              "contract-p63-c2",
+              "contract-p48-c4",
+              "contract-p48-c3",
+              "contract-p19-c1"
+            ]
+          },
+          {
+            "id": "defects-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c3",
+              "contract-p40-c4",
+              "contract-p23-c4",
+              "contract-p23-c3",
+              "contract-p40-c2",
+              "contract-p39-c5"
+            ]
+          },
+          {
+            "id": "labour-statements-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c3",
+              "contract-p47-c2",
+              "contract-p43-c4",
+              "contract-p44-c3",
+              "contract-p47-c1",
+              "contract-p44-c1"
+            ]
+          },
+          {
+            "id": "labour-statements-2",
+            "rank": 3,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c4",
+              "contract-p77-c3",
+              "contract-p43-c3",
+              "contract-p78-c3",
+              "contract-p75-c3",
+              "contract-p79-c1"
+            ]
+          },
+          {
+            "id": "tax-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p39-c2",
+              "contract-p55-c1",
+              "contract-p54-c2",
+              "contract-p26-c3"
+            ]
+          },
+          {
+            "id": "tax-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p55-c2",
+              "tender-p4-c10",
+              "contract-p21-c3",
+              "contract-p55-c1"
+            ]
+          },
+          {
+            "id": "integrity-1",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p59-c2",
+              "contract-p58-c1",
+              "contract-p63-c2",
+              "contract-p62-c2",
+              "contract-p62-c3",
+              "contract-p59-c1"
+            ]
+          },
+          {
+            "id": "integrity-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p58-c1",
+              "contract-p59-c1",
+              "contract-p60-c1",
+              "contract-p59-c2",
+              "contract-p63-c2",
+              "contract-p62-c3"
+            ]
+          },
+          {
+            "id": "column-example-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p11-c2",
+              "standard-p16-c3",
+              "standard-p15-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "column-example-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p16-c3",
+              "standard-p11-c2",
+              "standard-p15-c2",
+              "standard-p11-c1"
+            ]
+          }
+        ]
+      },
+      "trained": {
+        "questions": 10,
+        "hit_at_5": 1.0,
+        "mrr": 0.9,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "defects-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c3",
+              "contract-p40-c5",
+              "contract-p63-c2",
+              "contract-p48-c4",
+              "contract-p48-c3",
+              "contract-p19-c1"
+            ]
+          },
+          {
+            "id": "defects-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p40-c3",
+              "contract-p40-c4",
+              "contract-p23-c4",
+              "contract-p23-c3",
+              "contract-p40-c2",
+              "contract-p39-c5"
+            ]
+          },
+          {
+            "id": "labour-statements-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c3",
+              "contract-p47-c2",
+              "contract-p43-c4",
+              "contract-p44-c3",
+              "contract-p47-c1",
+              "contract-p44-c1"
+            ]
+          },
+          {
+            "id": "labour-statements-2",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p43-c4",
+              "contract-p43-c3",
+              "contract-p77-c3",
+              "contract-p78-c3",
+              "contract-p75-c3",
+              "contract-p79-c1"
+            ]
+          },
+          {
+            "id": "tax-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p39-c2",
+              "contract-p55-c1",
+              "contract-p54-c2",
+              "contract-p39-c1"
+            ]
+          },
+          {
+            "id": "tax-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p55-c3",
+              "contract-p55-c4",
+              "contract-p55-c2",
+              "tender-p4-c10",
+              "contract-p21-c3",
+              "contract-p55-c1"
+            ]
+          },
+          {
+            "id": "integrity-1",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p59-c2",
+              "contract-p58-c1",
+              "contract-p63-c2",
+              "contract-p62-c2",
+              "contract-p59-c1",
+              "contract-p62-c3"
+            ]
+          },
+          {
+            "id": "integrity-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p58-c1",
+              "contract-p59-c1",
+              "contract-p60-c1",
+              "contract-p59-c2",
+              "contract-p63-c2",
+              "contract-p62-c4"
+            ]
+          },
+          {
+            "id": "column-example-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p11-c2",
+              "standard-p16-c3",
+              "standard-p15-c1",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "column-example-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p16-c2",
+              "standard-p16-c1",
+              "standard-p16-c3",
+              "standard-p11-c2",
+              "standard-p15-c2",
+              "standard-p11-c1"
+            ]
+          }
+        ]
+      }
+    },
+    "neural_holdout": {
+      "baseline": {
+        "questions": 12,
+        "hit_at_5": 1.0,
+        "mrr": 0.9583333333333334,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "coupling-bars-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p8-c3",
+              "standard-p7-c2",
+              "standard-p8-c2",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "coupling-bars-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p8-c3",
+              "standard-p7-c2",
+              "standard-p8-c4",
+              "standard-p9-c1"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p17-c2",
+              "standard-p8-c3",
+              "standard-p18-c3",
+              "standard-p8-c2",
+              "standard-p18-c5"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p8-c4",
+              "standard-p8-c3",
+              "standard-p18-c5",
+              "standard-p18-c3",
+              "standard-p18-c4"
+            ]
+          },
+          {
+            "id": "controlled-labour-1",
+            "rank": 2,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c2",
+              "contract-p52-c3",
+              "contract-p52-c4",
+              "contract-p79-c2",
+              "standard-p18-c5",
+              "standard-p7-c2"
+            ]
+          },
+          {
+            "id": "controlled-labour-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c3",
+              "contract-p52-c4",
+              "contract-p52-c2",
+              "standard-p18-c5",
+              "contract-p71-c2",
+              "contract-p45-c3"
+            ]
+          },
+          {
+            "id": "retired-officer-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p56-c4",
+              "contract-p37-c3",
+              "contract-p15-c2",
+              "contract-p97-c1"
+            ]
+          },
+          {
+            "id": "retired-officer-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p108-c2",
+              "contract-p51-c3",
+              "contract-p108-c1",
+              "contract-p17-c2"
+            ]
+          },
+          {
+            "id": "integrity-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p63-c4",
+              "contract-p59-c2",
+              "contract-p63-c1",
+              "contract-p63-c2",
+              "contract-p58-c1"
+            ]
+          },
+          {
+            "id": "integrity-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p63-c2",
+              "contract-p63-c4",
+              "contract-p59-c2",
+              "contract-p64-c1",
+              "contract-p62-c4"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c2",
+              "contract-p66-c3",
+              "contract-p67-c2",
+              "contract-p69-c1",
+              "contract-p68-c4",
+              "contract-p65-c1"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c2",
+              "contract-p66-c3",
+              "contract-p69-c1",
+              "contract-p68-c4",
+              "contract-p66-c4",
+              "contract-p65-c6"
+            ]
+          }
+        ]
+      },
+      "pretrained": {
+        "questions": 12,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "coupling-bars-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p8-c2",
+              "standard-p9-c2",
+              "standard-p17-c2",
+              "standard-p18-c4"
+            ]
+          },
+          {
+            "id": "coupling-bars-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p9-c2",
+              "standard-p11-c1",
+              "standard-p10-c1",
+              "standard-p9-c1"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p17-c2",
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p18-c3",
+              "standard-p17-c1"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p11-c2",
+              "standard-p18-c3",
+              "standard-p10-c3"
+            ]
+          },
+          {
+            "id": "controlled-labour-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c3",
+              "contract-p52-c2",
+              "contract-p52-c4",
+              "contract-p42-c3",
+              "contract-p45-c3",
+              "contract-p41-c3"
+            ]
+          },
+          {
+            "id": "controlled-labour-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c3",
+              "contract-p52-c2",
+              "contract-p52-c4",
+              "contract-p45-c3",
+              "contract-p90-c3",
+              "contract-p67-c2"
+            ]
+          },
+          {
+            "id": "retired-officer-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p39-c1",
+              "contract-p56-c4",
+              "contract-p39-c2",
+              "contract-p55-c4"
+            ]
+          },
+          {
+            "id": "retired-officer-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p56-c4",
+              "contract-p39-c1",
+              "contract-p55-c3",
+              "contract-p48-c2"
+            ]
+          },
+          {
+            "id": "integrity-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p62-c4",
+              "contract-p63-c1",
+              "contract-p63-c2",
+              "contract-p59-c1",
+              "contract-p63-c4"
+            ]
+          },
+          {
+            "id": "integrity-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p62-c4",
+              "contract-p63-c2",
+              "contract-p28-c4",
+              "contract-p18-c1",
+              "contract-p62-c2"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c3",
+              "contract-p66-c2",
+              "contract-p67-c2",
+              "contract-p65-c1",
+              "contract-p69-c1",
+              "contract-p68-c4"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c2",
+              "contract-p66-c3",
+              "contract-p69-c1",
+              "contract-p68-c4",
+              "contract-p65-c1",
+              "contract-p67-c4"
+            ]
+          }
+        ]
+      },
+      "trained": {
+        "questions": 12,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "candidate_recall": 1.0,
+        "details": [
+          {
+            "id": "coupling-bars-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p8-c2",
+              "standard-p9-c2",
+              "standard-p17-c2",
+              "standard-p11-c1"
+            ]
+          },
+          {
+            "id": "coupling-bars-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p18-c3",
+              "standard-p18-c2",
+              "standard-p9-c2",
+              "standard-p11-c1",
+              "standard-p10-c1",
+              "standard-p9-c1"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p17-c2",
+              "standard-p10-c3",
+              "standard-p8-c3",
+              "standard-p18-c3",
+              "standard-p17-c1"
+            ]
+          },
+          {
+            "id": "wall-splice-ties-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "standard-p19-c1",
+              "standard-p8-c3",
+              "standard-p8-c4",
+              "standard-p11-c2",
+              "standard-p18-c3",
+              "standard-p10-c3"
+            ]
+          },
+          {
+            "id": "controlled-labour-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c3",
+              "contract-p52-c2",
+              "contract-p52-c4",
+              "contract-p42-c3",
+              "contract-p45-c3",
+              "contract-p41-c3"
+            ]
+          },
+          {
+            "id": "controlled-labour-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p52-c3",
+              "contract-p52-c2",
+              "contract-p52-c4",
+              "contract-p45-c3",
+              "contract-p90-c3",
+              "contract-p67-c2"
+            ]
+          },
+          {
+            "id": "retired-officer-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p39-c1",
+              "contract-p56-c4",
+              "contract-p39-c2",
+              "contract-p55-c4"
+            ]
+          },
+          {
+            "id": "retired-officer-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p56-c1",
+              "contract-p56-c2",
+              "contract-p56-c4",
+              "contract-p39-c1",
+              "contract-p55-c3",
+              "contract-p48-c2"
+            ]
+          },
+          {
+            "id": "integrity-notice-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p62-c4",
+              "contract-p63-c1",
+              "contract-p63-c2",
+              "contract-p17-c3",
+              "contract-p59-c1"
+            ]
+          },
+          {
+            "id": "integrity-notice-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p62-c3",
+              "contract-p62-c4",
+              "contract-p63-c2",
+              "contract-p28-c4",
+              "contract-p18-c1",
+              "contract-p62-c2"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-1",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c3",
+              "contract-p66-c2",
+              "contract-p67-c2",
+              "contract-p65-c1",
+              "contract-p69-c1",
+              "contract-p68-c4"
+            ]
+          },
+          {
+            "id": "welding-eyeshield-2",
+            "rank": 1,
+            "hit_at_5": true,
+            "candidate_hit": true,
+            "top_ids": [
+              "contract-p66-c2",
+              "contract-p66-c3",
+              "contract-p69-c1",
+              "contract-p68-c4",
+              "contract-p65-c1",
+              "contract-p67-c4"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "deployment": {
+    "status": "approved",
+    "rule": "Development improvement and no hit@5 or MRR regression against original search on any held-out split; all configured check sets required",
+    "regressions": [],
+    "weights_changed_by_evaluation": false
+  },
+  "default": "trained"
+}
