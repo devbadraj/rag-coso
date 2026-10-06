@@ -4,6 +4,8 @@ Ask questions about three construction documents in English or Hindi. The app fi
 
 This is the COSO take-home: cited RAG over an engineering standard, a contract and a Hindi tender, with a locally fine-tuned passage reranker.
 
+[Watch the demo (2 min 41 sec)](https://youtu.be/t8HEJq1FGHc)
+
 ## Run
 
 Use Python 3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/). From this folder:
